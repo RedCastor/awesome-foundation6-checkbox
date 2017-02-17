@@ -1,0 +1,32 @@
+{
+  "name": "awesome-foundation6-checkbox",
+  "version": "0.0.1",
+  "author": "Auban le Grelle <auban@viamonkey.com>",
+  "homepage": "https://redcastor.io",
+  "description": "",
+  "license": "MIT",
+  "keywords": [
+    "font",
+    "awesome",
+    "foundation"
+  ],
+  "main": [
+    "dist/awesome-foundation6-checkbox.css",
+    "src/awesome-foundation6-checkbox.scss"
+  ],
+  "ignore": [
+    "**/.*",
+    "**/*.txt",
+    ".jscsrc",
+    ".jshintrc",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "foundation-sites": "6.3.0",
+    "font-awesome": "4.7.0"
+  }
+}

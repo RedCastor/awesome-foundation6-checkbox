@@ -280,3 +280,5 @@ input[type="radio"] .styled:checked + label::before {
 input[type="checkbox"] .styled:checked + label::after,
 input[type="radio"] .styled:checked + label::after {
   color: #fff; }
+
+/*# sourceMappingURL=awesome-foundation6-checkbox.css.map */

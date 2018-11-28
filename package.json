@@ -1,6 +1,6 @@
 {
   "name": "awesome-foundation6-checkbox",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "author": "Auban le Grelle <auban@viamonkey.com>",
   "homepage": "https://github.com/RedCastor/awesome-foundation6-checkbox",
   "licenses": [
@@ -8,6 +8,10 @@
       "type": "MIT",
       "url": "http://opensource.org/licenses/MIT"
     }
+  ],
+  "main": [
+    "dist/awesome-foundation6-checkbox.css",
+    "src/awesome-foundation6-checkbox.scss"
   ],
   "scripts": {
     "build": "bower install && gulp"

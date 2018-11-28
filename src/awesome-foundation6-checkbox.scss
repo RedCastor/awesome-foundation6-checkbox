@@ -1,10 +1,7 @@
 //
 // Awesome Foundation 6 Checkboxes and radios
 // --------------------------------------------------
-
-$font-family-icon: 'FontAwesome' !default;
-$fa-var-check: "\f00c" !default;
-$check-icon: $fa-var-check !default;
+@import "settings";
 
 @mixin checkbox-variant($parent, $color) {
   #{$parent} input[type="checkbox"]:checked + label,
@@ -87,8 +84,8 @@ $check-icon: $fa-var-check !default;
     }
 
     &:checked + label::after{
-      font-family: $font-family-icon;
-      content: $check-icon;
+      font-family: $afc-font-family;
+      content: $afc-var-check;
     }
 
     &:indeterminate + label::after{
@@ -242,8 +239,8 @@ $check-icon: $fa-var-check !default;
 input[type="checkbox"],
 input[type="radio"] {
   &.styled:checked + label:after {
-    font-family: $font-family-icon;
-    content: $check-icon;
+    font-family: $afc-font-family;
+    content: $afc-var-check;
   }
   .styled:checked + label {
     &::before {

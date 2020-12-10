@@ -3,7 +3,7 @@
 .checkbox {
   position: relative;
   padding-left: 20px;
-  margin: 1rem; }
+  margin: 0 0 0.5rem; }
   .checkbox label {
     display: inline-block;
     vertical-align: middle;

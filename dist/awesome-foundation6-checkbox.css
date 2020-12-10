@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 .checkbox {
+  position: relative;
   padding-left: 20px; }
   .checkbox label {
     display: inline-block;
@@ -195,13 +196,13 @@
       border-radius: 50%;
       background-color: #0a0a0a;
       -webkit-transform: scale(0, 0);
-           -o-transform: scale(0, 0);
+          -ms-transform: scale(0, 0);
               transform: scale(0, 0);
       -webkit-transition: -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
       transition: -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
-      -o-transition: -o-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+      -o-transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
       transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
-      transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33), -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33), -o-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33); }
+      transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33), -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33); }
   .radio input[type="radio"] {
     position: absolute;
     margin: 4px 4px 4px -18px;
@@ -213,7 +214,7 @@
       outline: 0; }
     .radio input[type="radio"]:checked + label::after {
       -webkit-transform: scale(1, 1);
-           -o-transform: scale(1, 1);
+          -ms-transform: scale(1, 1);
               transform: scale(1, 1); }
     .radio input[type="radio"]:disabled + label {
       opacity: 0.65; }
